@@ -1,11 +1,10 @@
 from core.table_queries import initializing_table
+from product_menu import menu
 
 
-def main():
-    pass
 
 
 
 if __name__ == '__main__':
     initializing_table()
-    main()
+    menu()
