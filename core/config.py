@@ -14,9 +14,9 @@ DB_PASS=os.getenv("DB_PASS")
 
 
 DB_CONFIG = {
-    "database": "products",
+    "database": DB_NAME,
     "port": DB_PORT,
     "host": DB_HOST,
-    "user": "maxmud",
+    "user": DB_USER,
     "password": DB_PASS
 }
